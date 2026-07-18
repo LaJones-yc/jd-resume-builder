@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+resume-workspace/
+output/
+work/
+sources/
+private/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.pptx
