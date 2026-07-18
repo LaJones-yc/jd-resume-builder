@@ -1,0 +1,23 @@
+{
+  "skill_name": "jd-resume-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我只有一份旧的中文 PDF 简历，还没有经历库。请先引导我建立经历库，再询问目标 JD，不要直接编造英文简历。",
+      "expected_output": "The agent asks where the library should be stored, extracts evidence, identifies missing facts, and waits for verified information before tailoring.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "这是我的机器学习论文和代码库。我想申请数据科学实习，但论文由四人合作，请先确认我的个人贡献。",
+      "expected_output": "The agent separates project facts from personal ownership, asks targeted contribution questions, and proposes evidence-backed bullet options.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "请用经历库和产品经理 JD 生成中英文简历，两份均为一页，事实、数字、日期和工具完全对应，并自然覆盖有证据的 JD 关键词。",
+      "expected_output": "The agent creates a keyword coverage ledger, drafts aligned bilingual Markdown, validates facts, renders dense one-page A4 PDFs, and asks for feedback.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "JD Resume Builder"
+  short_description: "Build truthful, tailored bilingual one-page resumes"
+  default_prompt: "Use $jd-resume-builder to maintain my evidence-backed experience library and tailor a bilingual one-page resume to this JD."
